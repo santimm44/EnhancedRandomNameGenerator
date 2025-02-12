@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body id="bodyId" class="bg-[#212830] place-items-center text-white"> 
+
+    <section class="bg-[#5f8ca0] w-[75vw] rounded-2xl">
+        <div class="flex flex-col justify-center">
+            <h1 class="text-5xl flex justify-center"> R.N.G. Random Name Generater</h1>
+            <h3 class="text-xl flex justify-center">(Get It RNG Random Name Generater, But Also Like Random Number Generater)</h3>
+        </div>
+
+        <div class="flex justify-between m-[2rem_0rem]">
+            <div class="flex flex-col w-1/2 ps-6 pe-6 ">
+                <input id="addNameInputField" type="text" placeholder="Name Here" class="bg-white text-black ps-4 border-2 border-black rounded-2xl">
+                <button id="addNameBtn" class="bg-[#347d39] mt-4  rounded-2xl p-2 border-2 border-black hover:bg-[#57cc5f] mb-4"> Add Name</button>
+            </div>
+
+            <div class="flex flex-col w-1/2 ps-6 pe-6">
+                <input id="amoutOfGroupsInputField" type="number" placeholder="Amount Of Groups" class="bg-white text-black ps-4 border-2 border-black rounded-2xl">
+                <input id="groupSizeInputField" type="number" placeholder="Group Size" class="bg-white text-black ps-4 border-2 border-black rounded-2xl">
+                <button id="getRandmonGroupBtn" class="bg-[#347d39] rounded-2xl p-2 border-2 border-black hover:bg-[#57cc5f] mt-4 mb-4 "> Get Random Groups</button>
+            </div>
+        </div>
+        <div class="w-full m-[2rem_0rem] flex justify-center">
+            <button id="randomPersonBtn" class="bg-[#347d39] w-3/4 rounded-2xl p-2 border-2 border-black hover:bg-[#57cc5f] mt-4 mb-4 ">
+                Grab Random Person
+            </button>
+
+        </div>
+    </section>
+
+
+
+    <script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
